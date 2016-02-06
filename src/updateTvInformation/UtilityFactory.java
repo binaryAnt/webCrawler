@@ -1,28 +1,20 @@
 package updateTvInformation;
 
 import mainApp.ConfigurationTVSeriesCrawling;
-import webCrawler.URLGenerator;
-import webCrawler.URLGeneratorChangePageNo;
+import webCrawlerURLGeneration.URLGenerator;
+import webCrawlerURLReceiver.URLReceiver;
 
-public class UtilityFactory {
+public abstract class UtilityFactory {
 
-	private ConfigurationTVSeriesCrawling confTVSeriesCrawling;
+	protected ConfigurationTVSeriesCrawling confTVSeriesCrawling;
 
 	public UtilityFactory(ConfigurationTVSeriesCrawling confTVSeriesCrawling) {
 		this.confTVSeriesCrawling = confTVSeriesCrawling;
 	}
 
-	public EpisodeRetriever createEpisodeRetriever() {
-		return new EpisodeRetrieverRegex(confTVSeriesCrawling);
-	}
+	public abstract EpisodeRetriever createEpisodeRetriever();
 
-	public URLReceiver createURLReceiver() {
-		return new URLReceiverSimple();
-	}
+	public abstract URLReceiver createURLReceiver();
 
-	public URLGenerator createURLGenerator() {
-		return new URLGeneratorChangePageNo(confTVSeriesCrawling.urlToFirstCrawlpage,
-				confTVSeriesCrawling.urlPraefixNextCrawlpage, confTVSeriesCrawling.startingPageNo,
-				confTVSeriesCrawling.countBackwards);
-	}
+	public abstract URLGenerator createURLGenerator();
 }

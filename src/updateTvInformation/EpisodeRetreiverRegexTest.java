@@ -9,6 +9,7 @@ import org.junit.Test;
 import mainApp.ConfigurationLoader;
 import mainApp.ConfigurationLoaderException;
 import mainApp.ConfigurationLoaderFile;
+import webCrawlerURLReceiver.URLReceiverSimple;
 
 public class EpisodeRetreiverRegexTest {
 

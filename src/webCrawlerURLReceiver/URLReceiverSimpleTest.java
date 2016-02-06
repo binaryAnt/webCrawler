@@ -1,4 +1,4 @@
-package updateTvInformation;
+package webCrawlerURLReceiver;
 
 import static org.junit.Assert.*;
 

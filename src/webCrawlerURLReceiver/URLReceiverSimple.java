@@ -1,4 +1,4 @@
-package updateTvInformation;
+package webCrawlerURLReceiver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,6 @@ import java.net.URLConnection;
 
 public class URLReceiverSimple implements URLReceiver{
 
-	@Override
 	public String getResponseAsText(URL url) throws IOException {
 		URLConnection con = url.openConnection();
 

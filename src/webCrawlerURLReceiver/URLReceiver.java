@@ -1,4 +1,4 @@
-package updateTvInformation;
+package webCrawlerURLReceiver;
 
 import java.io.IOException;
 import java.net.URL;

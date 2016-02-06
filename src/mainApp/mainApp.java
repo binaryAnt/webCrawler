@@ -13,9 +13,9 @@ import updateTvInformation.EpisodesPersistantMySql;
 import updateTvInformation.EpisodeRetriever;
 import updateTvInformation.Episodes;
 import updateTvInformation.EpisodesPersistant;
-import updateTvInformation.URLReceiver;
 import updateTvInformation.UtilityFactory;
-import webCrawler.URLGenerator;
+import webCrawlerURLGeneration.URLGenerator;
+import webCrawlerURLReceiver.URLReceiver;
 
 public class mainApp {
 
@@ -25,7 +25,6 @@ public class mainApp {
 		// TODO für alle 3 Generatoren (Zählen mit Ende, Zählen bis nix neues, 
 		// eine Konfigurationsdateimöglichkeit bieten und diese auswerten
 		
-		Logger logger = LogManager.getRootLogger();
 		
 		updateNewEpisodes();
 	}
@@ -42,47 +41,47 @@ public class mainApp {
 			return;
 		}
 
-		ConfigurationDatabase dbConf = configuration.getDbConfiguration();
-
-		List<ConfigurationTVSeriesCrawling> tvSeriesCrawlingConfigurations = configuration
-				.getTvSeriesCrawlingConfigurations();
-
-		Episodes allEpisodes = new Episodes();
-
-		for (int i = 0; i < tvSeriesCrawlingConfigurations.size(); i++) {
-			ConfigurationTVSeriesCrawling tvSeriesCrawlingconf = tvSeriesCrawlingConfigurations.get(i);
-
-			UtilityFactory factory = new UtilityFactory(tvSeriesCrawlingconf);
-
-			URLGenerator urlGenerator = factory.createURLGenerator();
-			URLReceiver urlReceiver = factory.createURLReceiver();
-			EpisodeRetriever retriever = factory.createEpisodeRetriever();
-
-			List<URL> urls = new ArrayList<URL>();
-
-			try {
-				urls = urlGenerator.generateURLs();
-			} catch (MalformedURLException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
-
-			for (int j = 0; j < urls.size(); j++) {
-				System.out.println(urls.get(j).toString());
-				try {
-					String response = urlReceiver.getResponseAsText(urls.get(j));
-					Episodes episodes = retriever.retrieveEpisodesFromText(response);
-					allEpisodes.addEpisodes(episodes);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-
-		}
-
-		EpisodesPersistant persistant = new EpisodesPersistantMySql(configuration.getDbConfiguration());
-		persistant.persistEpisodes(allEpisodes);
+//		ConfigurationDatabase dbConf = configuration.getDbConfiguration();
+//
+//		List<ConfigurationTVSeriesCrawling> tvSeriesCrawlingConfigurations = configuration
+//				.getTvSeriesCrawlingConfigurations();
+//
+//		Episodes allEpisodes = new Episodes();
+//
+//		for (int i = 0; i < tvSeriesCrawlingConfigurations.size(); i++) {
+//			ConfigurationTVSeriesCrawling tvSeriesCrawlingconf = tvSeriesCrawlingConfigurations.get(i);
+//
+//			UtilityFactory factory = new UtilityFactory(tvSeriesCrawlingconf);
+//
+//			URLGenerator urlGenerator = factory.createURLGenerator();
+//			URLReceiver urlReceiver = factory.createURLReceiver();
+//			EpisodeRetriever retriever = factory.createEpisodeRetriever();
+//
+//			List<URL> urls = new ArrayList<URL>();
+//
+//			try {
+//				urls = urlGenerator.generateURLs();
+//			} catch (MalformedURLException e1) {
+//				// TODO Auto-generated catch block
+//				e1.printStackTrace();
+//			}
+//
+//			for (int j = 0; j < urls.size(); j++) {
+//				System.out.println(urls.get(j).toString());
+//				try {
+//					String response = urlReceiver.getResponseAsText(urls.get(j));
+//					Episodes episodes = retriever.retrieveEpisodesFromText(response);
+//					allEpisodes.addEpisodes(episodes);
+//				} catch (IOException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//			}
+//
+//		}
+//
+//		EpisodesPersistant persistant = new EpisodesPersistantMySql(configuration.getDbConfiguration());
+//		persistant.persistEpisodes(allEpisodes);
 	}
 
 }
