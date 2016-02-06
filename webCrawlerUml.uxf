@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>7</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2100</x>
-      <y>21</y>
-      <w>189</w>
-      <h>98</h>
+      <x>1800</x>
+      <y>18</y>
+      <w>162</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>Episode
 (DTO)
@@ -22,10 +22,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2100</x>
-      <y>231</y>
-      <w>189</w>
-      <h>70</h>
+      <x>1800</x>
+      <y>198</y>
+      <w>162</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 Iterator
@@ -37,10 +37,10 @@ next(): Object</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2100</x>
-      <y>329</y>
-      <w>189</w>
-      <h>35</h>
+      <x>1800</x>
+      <y>282</y>
+      <w>162</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>EpisodeIterator
 --
@@ -50,10 +50,10 @@ next(): Object</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2191</x>
-      <y>294</y>
-      <w>21</w>
-      <h>49</h>
+      <x>1878</x>
+      <y>252</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -61,10 +61,10 @@ next(): Object</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1428</x>
-      <y>469</y>
-      <w>406</w>
-      <h>70</h>
+      <x>1224</x>
+      <y>402</y>
+      <w>348</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>/EpisodeCreator/
 --
@@ -78,10 +78,10 @@ next(): Object</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2100</x>
-      <y>133</y>
-      <w>189</w>
-      <h>84</h>
+      <x>1800</x>
+      <y>114</y>
+      <w>162</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Episodes
 --
@@ -96,10 +96,10 @@ next(): Object</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1428</x>
-      <y>567</y>
-      <w>406</w>
-      <h>56</h>
+      <x>1224</x>
+      <y>486</y>
+      <w>348</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>EpisodeCreatorHashMap
 --
@@ -111,10 +111,10 @@ next(): Object</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1554</x>
-      <y>532</y>
-      <w>21</w>
-      <h>49</h>
+      <x>1332</x>
+      <y>456</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -122,10 +122,10 @@ next(): Object</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1428</x>
-      <y>266</y>
-      <w>406</w>
-      <h>56</h>
+      <x>1224</x>
+      <y>228</y>
+      <w>348</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>/EpisodesPersistant/
 --
@@ -139,10 +139,10 @@ EpisodesPersistant(dbConf: ConfigurationDatabase)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1428</x>
-      <y>357</y>
-      <w>406</w>
-      <h>91</h>
+      <x>1224</x>
+      <y>306</y>
+      <w>348</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>EpisodesPersistantMySQL
 --
@@ -159,10 +159,10 @@ EpisodesPersistant(dbConf: ConfigurationDatabase)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1554</x>
-      <y>315</y>
-      <w>21</w>
-      <h>56</h>
+      <x>1332</x>
+      <y>270</y>
+      <w>18</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -170,38 +170,40 @@ EpisodesPersistant(dbConf: ConfigurationDatabase)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1022</x>
-      <y>1218</y>
-      <w>231</w>
-      <h>70</h>
+      <x>876</x>
+      <y>1098</y>
+      <w>198</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 URLReceiver
 --
 #getResponseAsText(url URL): String
-</panel_attributes>
+
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1078</x>
-      <y>1330</y>
-      <w>112</w>
-      <h>35</h>
+      <x>924</x>
+      <y>1194</y>
+      <w>96</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>URLReceiverSimple
 --
---</panel_attributes>
+--
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1127</x>
-      <y>1281</y>
-      <w>21</w>
-      <h>63</h>
+      <x>966</x>
+      <y>1152</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -209,10 +211,10 @@ URLReceiver
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1561</x>
-      <y>35</y>
-      <w>280</w>
-      <h>119</h>
+      <x>1338</x>
+      <y>30</y>
+      <w>240</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>/UtilityFactory/
 --
@@ -228,10 +230,10 @@ URLReceiver
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1610</x>
-      <y>189</y>
-      <w>161</w>
-      <h>28</h>
+      <x>1380</x>
+      <y>162</y>
+      <w>138</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>UtilityFactorySimple
 --</panel_attributes>
@@ -240,10 +242,10 @@ URLReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1687</x>
-      <y>147</y>
-      <w>21</w>
-      <h>56</h>
+      <x>1446</x>
+      <y>126</y>
+      <w>18</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -251,40 +253,42 @@ URLReceiver
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1036</x>
-      <y>889</y>
-      <w>231</w>
-      <h>49</h>
+      <x>888</x>
+      <y>798</y>
+      <w>198</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>/URLGenerator/
 --
 --
-/#generateURLs(): List&lt;URL&gt;/</panel_attributes>
+/#generateURLs(): List&lt;URL&gt;/
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>476</x>
-      <y>994</y>
-      <w>273</w>
-      <h>112</h>
+      <x>408</x>
+      <y>900</y>
+      <w>234</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>URLGeneratorChangePageNoCountingUntilNoNewPage
 --
 -conf: URLGeneratorConfigurationCounter
 --
 #URLGeneratorChangePageNoCountingUntilNoNewPage(
-conf: URLGeneratorConfigurationCounter)</panel_attributes>
+conf: URLGeneratorConfigurationCounter)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1127</x>
-      <y>994</y>
-      <w>238</w>
-      <h>112</h>
+      <x>966</x>
+      <y>900</y>
+      <w>204</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>/not yet implemented/
 URLGeneratorNextLink
@@ -292,16 +296,17 @@ URLGeneratorNextLink
 -conf: URLGeneratorConfigurationFollowLinks
 --
 #URLGeneratorNextLink(
-conf: URLGeneratorConfigurationFollowLinks)</panel_attributes>
+conf: URLGeneratorConfigurationFollowLinks)
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>994</y>
-      <w>308</w>
-      <h>112</h>
+      <x>660</x>
+      <y>900</y>
+      <w>264</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>URLGeneratorChangePageNoCountingUntilNo
 --
@@ -309,49 +314,50 @@ conf: URLGeneratorConfigurationFollowLinks)</panel_attributes>
 --
 #URLGeneratorChangePageNoCountingUntilNoNewPage(
 conf:URLGeneratorConfigurationCounter)
-</panel_attributes>
+
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1141</x>
-      <y>931</y>
-      <w>84</w>
-      <h>77</h>
+      <x>978</x>
+      <y>834</y>
+      <w>72</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;100.0;50.0;100.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;100.0;40.0;100.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
-      <y>931</y>
-      <w>266</w>
-      <h>77</h>
+      <x>768</x>
+      <y>834</y>
+      <w>228</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>360.0;10.0;360.0;50.0;10.0;50.0;10.0;90.0</additional_attributes>
+    <additional_attributes>360.0;10.0;360.0;40.0;10.0;40.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>609</x>
-      <y>931</y>
-      <w>553</w>
-      <h>77</h>
+      <x>522</x>
+      <y>834</y>
+      <w>474</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>770.0;10.0;770.0;50.0;10.0;50.0;10.0;90.0</additional_attributes>
+    <additional_attributes>770.0;10.0;770.0;40.0;10.0;40.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1148</x>
-      <y>28</y>
-      <w>231</w>
-      <h>203</h>
+      <x>984</x>
+      <y>24</y>
+      <w>198</w>
+      <h>174</h>
     </coordinates>
     <panel_attributes>MainApp
 --
@@ -362,10 +368,10 @@ _-main(String[] args)_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1372</x>
-      <y>77</y>
-      <w>203</w>
-      <h>35</h>
+      <x>1176</x>
+      <y>66</y>
+      <w>174</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 uses 1 per TVSeries-Entry &gt;
@@ -375,10 +381,10 @@ in ConfigFile</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>224</y>
-      <w>126</w>
-      <h>84</h>
+      <x>1128</x>
+      <y>192</y>
+      <w>108</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>160.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
@@ -386,10 +392,10 @@ in ConfigFile</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1316</x>
-      <y>287</y>
-      <w>126</w>
-      <h>224</h>
+      <x>1128</x>
+      <y>246</y>
+      <w>108</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>160.0;300.0;10.0;300.0;10.0;10.0</additional_attributes>
@@ -397,10 +403,10 @@ in ConfigFile</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1764</x>
-      <y>196</y>
-      <w>182</w>
-      <h>196</h>
+      <x>1512</x>
+      <y>168</y>
+      <w>156</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>100.0;260.0;240.0;260.0;240.0;10.0;10.0;10.0</additional_attributes>
@@ -408,10 +414,10 @@ in ConfigFile</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1827</x>
-      <y>371</y>
-      <w>119</w>
-      <h>245</h>
+      <x>1566</x>
+      <y>318</y>
+      <w>102</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;330.0;150.0;330.0;150.0;10.0</additional_attributes>
@@ -419,10 +425,10 @@ in ConfigFile</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>406</x>
+      <x>348</x>
       <y>0</y>
-      <w>259</w>
-      <h>56</h>
+      <w>222</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 ConfigurationLoader
@@ -433,10 +439,10 @@ ConfigurationLoader
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>427</x>
-      <y>84</y>
-      <w>217</w>
-      <h>70</h>
+      <x>366</x>
+      <y>72</y>
+      <w>186</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>ConfigurationLoaderFile
 --
@@ -449,10 +455,10 @@ ConfigurationLoader
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>532</x>
-      <y>49</y>
-      <w>21</w>
-      <h>49</h>
+      <x>456</x>
+      <y>42</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -460,10 +466,10 @@ ConfigurationLoader
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>301</y>
-      <w>385</w>
-      <h>140</h>
+      <x>258</x>
+      <y>216</y>
+      <w>330</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Configuration
 --
@@ -479,21 +485,21 @@ tvSeriesCrawlingConfs: List&lt;TVSeriesCrawlingConfiguration)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>238</x>
-      <y>21</y>
-      <w>182</w>
-      <h>322</h>
+      <x>204</x>
+      <y>18</y>
+      <w>156</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>90.0;440.0;10.0;440.0;10.0;10.0;240.0;10.0</additional_attributes>
+    <additional_attributes>90.0;370.0;10.0;370.0;10.0;10.0;240.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>658</x>
-      <y>28</y>
-      <w>504</w>
-      <h>21</h>
+      <x>564</x>
+      <y>24</y>
+      <w>432</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;700.0;10.0</additional_attributes>
@@ -501,21 +507,21 @@ tvSeriesCrawlingConfs: List&lt;TVSeriesCrawlingConfiguration)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>679</x>
-      <y>154</y>
-      <w>483</w>
-      <h>189</h>
+      <x>582</x>
+      <y>132</y>
+      <w>414</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;250.0;60.0;250.0;60.0;10.0;670.0;10.0</additional_attributes>
+    <additional_attributes>10.0;180.0;60.0;180.0;60.0;10.0;670.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>539</y>
-      <w>357</w>
-      <h>161</h>
+      <y>414</y>
+      <w>306</w>
+      <h>138</h>
     </coordinates>
     <panel_attributes>ConfigurationDatabase
 --
@@ -537,10 +543,10 @@ dbName: String, dbUsername: String, dbPassword: String)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>406</x>
-      <y>539</y>
-      <w>287</w>
-      <h>175</h>
+      <x>348</x>
+      <y>414</y>
+      <w>246</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>ConfigurationTVSeriesCrawling
 (DTO)
@@ -562,116 +568,123 @@ dbName: String, dbUsername: String, dbPassword: String)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>553</x>
-      <y>434</y>
-      <w>21</w>
-      <h>119</h>
+      <x>474</x>
+      <y>330</y>
+      <w>18</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>434</y>
-      <w>154</w>
-      <h>119</h>
+      <x>216</x>
+      <y>330</y>
+      <w>132</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=*</panel_attributes>
-    <additional_attributes>200.0;10.0;200.0;100.0;10.0;100.0;10.0;150.0</additional_attributes>
+    <additional_attributes>200.0;10.0;200.0;90.0;10.0;90.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>987</x>
-      <y>763</y>
-      <w>329</w>
-      <h>63</h>
+      <x>846</x>
+      <y>666</y>
+      <w>282</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>/WebCrawler/
 --
-+WebCrawler(conf: WebCrawlerConfiguration)
-+crawlAndRetrieveInformation(): HashMap&lt;String, Object&gt;</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1407</x>
-      <y>763</y>
-      <w>259</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>/WebCrawlerUtilityFactory/
+#urlGenerator: URLGenerator
+#urlReceiver: URLReceiver
+#informationFinder: InformationFinder
 --
--WebCrawlerConfiguration
---
-#getURLGenerator(): URLGenerator
-#getURLReceiver(): URLReceiver
-#getInformationFinder(): InformationFinder</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1827</x>
-      <y>896</y>
-      <w>168</w>
-      <h>42</h>
-    </coordinates>
-    <panel_attributes>/URLGeneratorConfiguration/
---</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>882</x>
-      <y>1414</y>
-      <w>357</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>/InformationFinder/
---
-#findInformation(conf: InformationFinderConfiguration): HashMap&lt;Key, Object&gt;
-
++crawlAndRetrieveInformation(): HashMap&lt;String, Object&gt;
+#setURLGenerator(urlGenerator: URLGenerator)
+#setURLReceiver(urlReceiver: URLReceiver)
+#setInformationFinder(informationFinder: InformationFinder)
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1904</x>
-      <y>987</y>
-      <w>322</w>
-      <h>154</h>
+      <x>1206</x>
+      <y>666</y>
+      <w>276</w>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>URLGeneratorConfigurationCounter
+    <panel_attributes>/WebCrawlerBuilder/
+--
+
+--
++buildWebCrawler(conf: WebCrawlerConfiguration): WebCrawler
+-getURLGenerator(): URLGenerator
+-getURLReceiver(): URLReceiver
+-getInformationFinder(): InformationFinder</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1548</x>
+      <y>786</y>
+      <w>144</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>/URLGeneratorConfiguration/
+--
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>1266</y>
+      <w>306</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>/InformationFinder/
+--
+#findInformation(text: String): List&lt;String&gt;
+
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1524</x>
+      <y>876</y>
+      <w>180</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>URLGeneratorConfigurationCounterUntilNo
 --
 #urlToFirstCrawlpage: String
 #urlPraefixNextCrawlpage: String
 #urlSuffixNextCrawlpage: String
 #startingPageNo: int
 #lastPageNo: int
-#countBackwards: boolean
 --
-+URLGeneratorConfigurationCounter(urlToFirstCrawlpage: String,
-urlPraefixNextCrawlpage: String, #urlSuffixNextCrawlpage: String,
-startingPageNo: int, #lastPageNo: int, countBackwards: boolean )</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1631</x>
-      <y>987</y>
-      <w>245</w>
-      <h>154</h>
+      <x>1296</x>
+      <y>876</y>
+      <w>210</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>URLGeneratorConfigurationFollowLinks
 --
@@ -680,81 +693,83 @@ startingPageNo: int, #lastPageNo: int, countBackwards: boolean )</panel_attribut
 --
 +URLGeneratorConfigurationFollowLinks(
 urlToFirstCrawlpage: String,
-regexForNextLinks: String)</panel_attributes>
+regexForNextLinks: String)
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1904</x>
-      <y>931</y>
-      <w>98</w>
-      <h>70</h>
+      <x>1614</x>
+      <y>816</y>
+      <w>18</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;120.0;50.0;120.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1722</x>
-      <y>931</y>
-      <w>203</w>
-      <h>70</h>
+      <x>1398</x>
+      <y>816</y>
+      <w>234</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>270.0;10.0;270.0;50.0;10.0;50.0;10.0;80.0</additional_attributes>
+    <additional_attributes>370.0;10.0;370.0;70.0;10.0;70.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1841</x>
-      <y>1393</y>
-      <w>168</w>
-      <h>56</h>
+      <x>1578</x>
+      <y>1248</y>
+      <w>144</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>/InformationFinderConfiguration/
 --
-</panel_attributes>
+
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1946</x>
-      <y>1540</y>
-      <w>266</w>
-      <h>91</h>
+      <x>1668</x>
+      <y>1374</y>
+      <w>228</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>InformationFinderConfigurationRegex
 --
 #regexAsText: String
-#positionAndNameOfMatches: HashMap&lt;int, String&gt;
 --
 +InformationFinderConfigurationRegex(
-regexAsText: String, 
-#positionAndNameOfMatches: HashMap&lt;int, String&gt;)</panel_attributes>
+regexAsText: String)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1694</x>
-      <y>1540</y>
-      <w>196</w>
-      <h>91</h>
+      <x>1452</x>
+      <y>1374</y>
+      <w>168</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>/not yet implemented/
-InformationFinderConfigurationDOM</panel_attributes>
+InformationFinderConfigurationDOM
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1925</x>
-      <y>1442</y>
-      <w>161</w>
-      <h>112</h>
+      <x>1650</x>
+      <y>1290</y>
+      <w>138</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0;210.0;70.0;210.0;140.0</additional_attributes>
@@ -762,10 +777,10 @@ InformationFinderConfigurationDOM</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1792</x>
-      <y>1442</y>
-      <w>154</w>
-      <h>112</h>
+      <x>1536</x>
+      <y>1290</y>
+      <w>132</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>200.0;10.0;200.0;70.0;10.0;70.0;10.0;140.0</additional_attributes>
@@ -773,10 +788,10 @@ InformationFinderConfigurationDOM</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1785</x>
-      <y>763</y>
-      <w>343</w>
-      <h>91</h>
+      <x>1530</x>
+      <y>666</y>
+      <w>294</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>WebCrawlerConfiguration
 --
@@ -793,180 +808,172 @@ informationFinderConf: InformationFinderConfiguration)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1988</x>
-      <y>833</y>
-      <w>217</w>
-      <h>105</h>
+      <x>1686</x>
+      <y>726</y>
+      <w>204</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>200.0;10.0;290.0;10.0;290.0;120.0;10.0;120.0</additional_attributes>
+    <additional_attributes>230.0;10.0;320.0;10.0;320.0;130.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2002</x>
-      <y>784</y>
-      <w>294</w>
-      <h>665</h>
+      <x>1716</x>
+      <y>684</y>
+      <w>252</w>
+      <h>612</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>180.0;10.0;400.0;10.0;400.0;920.0;10.0;920.0</additional_attributes>
+    <additional_attributes>180.0;10.0;400.0;10.0;400.0;990.0;10.0;990.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>812</x>
-      <y>1575</y>
-      <w>224</w>
-      <h>35</h>
+      <x>582</x>
+      <y>1404</y>
+      <w>288</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>InformationFinderRegex
---</panel_attributes>
+--
+-InformationFinderConfigurationRegex
+--
++InformationFinderRegex(conf: InformationFinderConfigurationRegex)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1071</x>
-      <y>1575</y>
-      <w>224</w>
-      <h>35</h>
+      <x>936</x>
+      <y>1404</y>
+      <w>192</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>InformationFinderDOM
---</panel_attributes>
+--
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1057</x>
-      <y>1463</y>
-      <w>140</w>
-      <h>126</h>
+      <x>906</x>
+      <y>1308</y>
+      <w>138</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0;180.0;110.0;180.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;210.0;110.0;210.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>938</x>
-      <y>1463</y>
-      <w>140</w>
-      <h>126</h>
+      <x>786</x>
+      <y>1308</y>
+      <w>138</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>180.0;10.0;180.0;110.0;10.0;110.0;10.0;160.0</additional_attributes>
+    <additional_attributes>210.0;10.0;210.0;110.0;10.0;110.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1288</x>
-      <y>1582</y>
-      <w>420</w>
-      <h>28</h>
+      <x>1122</x>
+      <y>1410</y>
+      <w>342</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;580.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;550.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1029</x>
-      <y>1589</y>
-      <w>1071</w>
-      <h>105</h>
+      <x>864</x>
+      <y>1416</y>
+      <w>936</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0;40.0;130.0;1510.0;130.0;1510.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;130.0;1540.0;130.0;1540.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1358</x>
-      <y>1036</y>
-      <w>287</w>
-      <h>28</h>
+      <x>1164</x>
+      <y>936</y>
+      <w>144</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;390.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>1099</y>
-      <w>1512</w>
-      <h>91</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
-m1=1
-m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0;2140.0;110.0;2140.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>889</x>
-      <y>1099</y>
-      <w>21</w>
-      <h>91</h>
+      <x>762</x>
+      <y>990</y>
+      <w>870</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;1430.0;70.0;1430.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>427</x>
-      <y>791</y>
-      <w>623</w>
-      <h>140</h>
+      <x>366</x>
+      <y>690</y>
+      <w>534</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>870.0;180.0;10.0;180.0;10.0;10.0;800.0;10.0</additional_attributes>
+    <additional_attributes>870.0;220.0;10.0;220.0;10.0;10.0;800.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>427</x>
-      <y>910</y>
-      <w>609</w>
-      <h>364</h>
+      <x>366</x>
+      <y>780</y>
+      <w>522</w>
+      <h>366</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>850.0;500.0;10.0;500.0;10.0;10.0</additional_attributes>
+    <additional_attributes>850.0;590.0;10.0;590.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>427</x>
-      <y>1253</y>
-      <w>469</w>
-      <h>203</h>
+      <x>366</x>
+      <y>1074</y>
+      <w>402</w>
+      <h>228</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>650.0;270.0;10.0;270.0;10.0;10.0</additional_attributes>
+    <additional_attributes>650.0;360.0;10.0;360.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1309</x>
-      <y>791</y>
-      <w>112</w>
-      <h>21</h>
+      <x>1122</x>
+      <y>690</y>
+      <w>96</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -974,10 +981,10 @@ m2=</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>938</x>
-      <y>392</y>
-      <w>301</w>
-      <h>77</h>
+      <x>804</x>
+      <y>336</y>
+      <w>258</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>/WebCrawlerGateway/
 --
@@ -987,32 +994,32 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>686</x>
-      <y>441</y>
-      <w>266</w>
-      <h>203</h>
+      <x>588</x>
+      <y>378</y>
+      <w>228</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;270.0;100.0;270.0;100.0;10.0;360.0;10.0</additional_attributes>
+    <additional_attributes>10.0;190.0;100.0;190.0;100.0;10.0;360.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1232</x>
-      <y>700</y>
-      <w>742</w>
-      <h>77</h>
+      <x>1122</x>
+      <y>558</y>
+      <w>570</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>1040.0;90.0;1040.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>930.0;180.0;930.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1078</x>
-      <y>175</y>
-      <w>84</w>
-      <h>231</h>
+      <x>924</x>
+      <y>150</y>
+      <w>72</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;310.0;10.0;10.0;100.0;10.0</additional_attributes>
@@ -1020,10 +1027,10 @@ m2=</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>931</x>
-      <y>679</y>
-      <w>308</w>
-      <h>63</h>
+      <x>852</x>
+      <y>540</y>
+      <w>276</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>MyFirstWebcrawlerGateway
 --
@@ -1036,12 +1043,152 @@ tvConf: ConfigurationTVSeriesCrawling): WebCrawlerConfiguration</panel_attribute
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1092</x>
-      <y>462</y>
-      <w>21</w>
-      <h>231</h>
+      <x>936</x>
+      <y>396</y>
+      <w>72</w>
+      <h>156</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;310.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0;100.0;130.0;100.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>54</x>
+      <y>642</y>
+      <w>1950</w>
+      <h>894</h>
+    </coordinates>
+    <panel_attributes>webCrawler
+--
+bg=white
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>984</x>
+      <y>588</y>
+      <w>18</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1716</x>
+      <y>876</y>
+      <w>216</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>URLGeneratorConfigurationCounterUntilNoNewPage
+--
+#urlToFirstCrawlpage: String
+#urlPraefixNextCrawlpage: String
+#urlSuffixNextCrawlpage: String
+#startingPageNo: int
+#countBackwards: boolean
+--
+layer=1
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1614</x>
+      <y>816</y>
+      <w>204</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;320.0;70.0;320.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>990</y>
+      <w>1314</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;2170.0;110.0;2170.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1206</x>
+      <y>762</y>
+      <w>222</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>WebCrawlerBuilderSimple
+--
+
+--
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1314</x>
+      <y>720</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>774</y>
+      <w>108</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>WebCrawlerSimple
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>984</x>
+      <y>750</y>
+      <w>18</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1038</x>
+      <y>774</y>
+      <w>180</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>280.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1038</x>
+      <y>588</y>
+      <w>318</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>510.0;130.0;510.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
