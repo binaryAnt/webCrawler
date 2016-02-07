@@ -1,6 +1,6 @@
 package apiMain;
 
-import apConfiguration.WebCrawlerConfiguration;
+import apiConfiguration.WebCrawlerConfiguration;
 
 public abstract class WebCrawlerBuilder {
 	

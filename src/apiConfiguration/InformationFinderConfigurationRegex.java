@@ -1,4 +1,4 @@
-package apConfiguration;
+package apiConfiguration;
 
 public class InformationFinderConfigurationRegex extends InformationFinderConfiguration {
 	public final String regexAsText;

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import apConfiguration.InformationFinderConfigurationRegex;
+import apiConfiguration.InformationFinderConfigurationRegex;
 import apiMain.Result;
 import apiMain.Results;
 

@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import apConfiguration.URLGeneratorConfigurationCounterUntilNumber;
+import apiConfiguration.URLGeneratorConfigurationCounterUntilNumber;
 
 public class URLGeneratorChangePageNoCountingUntilNoTest {
 

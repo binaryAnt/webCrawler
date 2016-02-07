@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 import org.junit.Test;
 
-import apConfiguration.InformationFinderConfigurationRegex;
+import apiConfiguration.InformationFinderConfigurationRegex;
 import apiMain.Result;
 import apiMain.Results;
 

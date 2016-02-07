@@ -1,9 +1,9 @@
 package apiMain;
 
-import apConfiguration.InformationFinderConfigurationRegex;
-import apConfiguration.URLGeneratorConfigurationCounterUntilNumber;
-import apConfiguration.URLGeneratorConfigurationCounterUntilNoNewPage;
-import apConfiguration.WebCrawlerConfiguration;
+import apiConfiguration.InformationFinderConfigurationRegex;
+import apiConfiguration.URLGeneratorConfigurationCounterUntilNoNewPage;
+import apiConfiguration.URLGeneratorConfigurationCounterUntilNumber;
+import apiConfiguration.WebCrawlerConfiguration;
 import concreteWebCrawlers.WebCrawlerSimple;
 import informationFinding.InformationFinder;
 import informationFinding.InformationFinderRegex;

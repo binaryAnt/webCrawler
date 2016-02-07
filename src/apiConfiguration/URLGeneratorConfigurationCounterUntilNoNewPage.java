@@ -1,4 +1,4 @@
-package apConfiguration;
+package apiConfiguration;
 
 public class URLGeneratorConfigurationCounterUntilNoNewPage extends URLGeneratorConfiguration {
 

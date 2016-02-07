@@ -6,7 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import apConfiguration.URLGeneratorConfigurationCounterUntilNoNewPage;
+import apiConfiguration.URLGeneratorConfigurationCounterUntilNoNewPage;
 import urlReceiving.URLReceiver;
 import urlReceiving.URLReceiverSimple;
 
